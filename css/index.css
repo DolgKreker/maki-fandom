@@ -13,7 +13,7 @@ body {
 header nav .logo {
     text-align: center;
     margin: 0;
-    padding: 20px
+    padding: 20px;
 }
 
 header nav .menu {
@@ -39,6 +39,11 @@ header nav .menu a {
 
 header {
     background-color: #00ffc6;
+}
+
+div table {
+    max-width: 210px;
+    border: 1px dashed grey;
 }
 
 .button {
@@ -75,9 +80,4 @@ header {
     text-align: center;
     transition: all 0.3s;
     background-color: rgba(255, 255, 255, 0.856);
-}
-
-div table {
-    max-width: 190px;
-    border: 1px dashed grey;
 }
