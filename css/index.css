@@ -19,9 +19,10 @@ header nav .logo {
 header nav .menu {
     display: flex;
     flex: 1;
-    padding: 0;
     list-style-type: none;
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 5px
 }
 
 header nav .menu a {
@@ -30,20 +31,43 @@ header nav .menu a {
     padding: 5px;
 }
 
-@media (min-width: 800px) {
-    header nav {
-        display: flex;
-        align-items: center;
-    }
-}
+
 
 header {
     background-color: #00ffc6;
 }
 
+body div.main img {
+    width: 100%;
+    display: block;
+}
+
 div table {
-    max-width: 210px;
+    width: 100%;
     border: 1px dashed grey;
+}
+
+@media (min-width: 800px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    header nav .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    div.main {
+        display: grid;
+        grid-template-columns: auto 230px;
+    }
+    body div.main img.first {
+        max-width: 750px;
+        height: auto;
+    }
+    body div.main table{
+        max-width: 230px;
+        height: auto;
+    }
 }
 
 .button {
