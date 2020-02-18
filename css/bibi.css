@@ -30,7 +30,7 @@ header nav .menu a {
     padding: 5px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 720px) {
     header nav {
         display: flex;
         align-items: center;
@@ -62,7 +62,7 @@ header {
     cursor: pointer;
 }
 
-.button2 {
+.button-active {
     display: inline-block;
     padding: 0.35em 1.2em;
     border: 0.1em solid #FFFFFF;

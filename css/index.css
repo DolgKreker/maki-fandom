@@ -6,8 +6,18 @@
 }
 
 body {
+    margin: 0;
+    background-image: url(../img/main-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
     max-width: 980px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.349)
 }
 
 header nav .logo {
@@ -22,7 +32,7 @@ header nav .menu {
     list-style-type: none;
     justify-content: center;
     margin: 0;
-    padding: 5px
+    padding: 5px;
 }
 
 header nav .menu a {
@@ -31,10 +41,8 @@ header nav .menu a {
     padding: 5px;
 }
 
-
-
-header {
-    background-color: #00ffc6;
+header, footer {
+    background-color: rgba(106, 30, 228, 0.562);
 }
 
 body div.main img {
@@ -44,10 +52,10 @@ body div.main img {
 
 div table {
     width: 100%;
-    border: 1px dashed grey;
+    background-color: rgb(230, 230, 230);
 }
 
-@media (min-width: 800px) {
+@media (min-width: 720px) {
     header nav {
         display: flex;
         align-items: center;
@@ -68,6 +76,17 @@ div table {
         max-width: 230px;
         height: auto;
     }
+}
+
+footer p {
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p.stream {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button {
@@ -91,7 +110,7 @@ div table {
     cursor: pointer;
 }
 
-.button2 {
+.button-active {
     display: inline-block;
     padding: 0.35em 1.2em;
     border: 0.1em solid #FFFFFF;
