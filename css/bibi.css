@@ -17,7 +17,7 @@ body {
 main {
     max-width: 980px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.349)
+    background-color: rgba(255, 255, 255, 0.500)
 }
 
 header nav .logo {
@@ -54,6 +54,17 @@ header nav .menu a {
 
 header, footer {
     background-color: rgba(106, 30, 228, 0.562);
+}
+
+footer p {
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p.stream {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button {

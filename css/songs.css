@@ -17,7 +17,7 @@ body {
 main {
     max-width: 980px;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.349)
+    background-color: rgba(255, 255, 255, 0.500)
 }
 
 header nav .logo {
@@ -41,16 +41,7 @@ header nav .menu a {
     padding: 5px;
 }
 
-@media (min-width: 720px) {
-    header nav {
-        display: flex;
-        align-items: center;
-    }
-    header nav .menu {
-        display: flex;
-        justify-content: flex-end;
-    }
-}
+
 
 header, footer {
     background-color: rgba(106, 30, 228, 0.562);
@@ -62,8 +53,50 @@ div.main {
 
 div.main img {
     width: 100%;
-    display: block;
-    
+    display: block;   
+}
+div.songs img {
+    width: 85%;
+    display: block
+}
+
+div.image {
+    display: flex;
+    justify-content: center
+}
+
+div.songs div {
+    margin-bottom: 5px;
+}
+
+@media (min-width: 720px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    header nav .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+    div.songs img {
+        width: 225px;
+    }
+    div.songs {
+        display: grid;
+        grid-template-columns: 225px auto 320px;
+        grid-gap: 5px;
+    }
+}
+
+footer p {
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+}
+
+footer p.stream {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .button {
