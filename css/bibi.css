@@ -41,6 +41,17 @@ header nav .menu a {
     padding: 5px;
 }
 
+div.main img{
+    display: block;
+    width: 100%;
+} 
+
+div.table p, div.table h3 {
+    background-color: rgba(230, 230, 230);
+    margin: 0;
+    padding: 7px;
+}
+
 @media (min-width: 720px) {
     header nav {
         display: flex;
@@ -49,6 +60,10 @@ header nav .menu a {
     header nav .menu {
         display: flex;
         justify-content: flex-end;
+    }
+    div.main {
+        display: grid;
+        grid-template-columns: auto 230px;
     }
 }
 

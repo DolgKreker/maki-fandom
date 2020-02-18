@@ -68,14 +68,6 @@ div table {
         display: grid;
         grid-template-columns: auto 230px;
     }
-    body div.main img.first {
-        max-width: 750px;
-        height: auto;
-    }
-    body div.main table{
-        max-width: 230px;
-        height: auto;
-    }
 }
 
 footer p {

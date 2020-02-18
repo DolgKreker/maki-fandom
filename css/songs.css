@@ -41,8 +41,6 @@ header nav .menu a {
     padding: 5px;
 }
 
-
-
 header, footer {
     background-color: rgba(106, 30, 228, 0.562);
 }
@@ -67,6 +65,11 @@ div.image {
 
 div.songs div {
     margin-bottom: 5px;
+}
+
+body div.audio {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 720px) {
