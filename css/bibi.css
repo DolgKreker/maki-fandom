@@ -6,8 +6,18 @@
 }
 
 body {
+    margin: 0;
+    background-image: url(../img/main-background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
     max-width: 980px;
     margin: auto;
+    background-color: rgba(255, 255, 255, 0.349)
 }
 
 header nav .logo {
@@ -19,9 +29,10 @@ header nav .logo {
 header nav .menu {
     display: flex;
     flex: 1;
-    padding: 0;
     list-style-type: none;
-    justify-content: flex-end;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
 }
 
 header nav .menu a {
@@ -35,10 +46,14 @@ header nav .menu a {
         display: flex;
         align-items: center;
     }
-}  
+    header nav .menu {
+        display: flex;
+        justify-content: flex-end;
+    }
+}
 
-header {
-    background-color: #00ffc6;
+header, footer {
+    background-color: rgba(106, 30, 228, 0.562);
 }
 
 .button {
