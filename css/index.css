@@ -76,6 +76,10 @@ footer p {
     padding: 10px;
 }
 
+footer a {
+    color: var(--main-color)
+}
+
 footer p.stream {
     display: flex;
     justify-content: flex-end;
